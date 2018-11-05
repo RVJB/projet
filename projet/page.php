@@ -1,5 +1,5 @@
 <?php
 
-echo "papage";
+echo "page";
 
 ?>

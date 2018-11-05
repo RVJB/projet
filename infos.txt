@@ -41,3 +41,24 @@ git branch -- pour voir les branches et l'étoile $ indique la branche courante.
 -- on fait nos modifs
 git add --all (tout ajouter)
 git add page.php (ajouter un fichier précis, en l'occurrence page.php)
+
+git commit -a -m "Premiere mise a jour"
+git push -u origin recette
+
+COMMIT
+-a all prise en compte des fichiers modifiés et supprimés
+-m "message" libellé du commit
+
+push
+-u (set upstream) alimenter le suivi en cas de succès du push
+
+-- REVENIR SUR UN COMMIT--------
+git log (affiche l'historique avec les ID des commit)
+ex : f511da277936b8d2f358f2bb3bd53c7c25f8fb86
+git revert f511da277936b8d2f358f2bb3bd53c7c25f8fb86
+
+
+git revert f511da277936b8d2f358f2bb3bd53c7c25f8fb86
+--- on édite le fichier de commit du revert
+git push -u origin recette
+--- pour valider le retour arrière
