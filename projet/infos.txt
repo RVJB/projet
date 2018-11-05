@@ -6,6 +6,38 @@ mac: https//git-scm.com/donload/mac3- Ouvrir invite de commande (cmd) et on se p
 3- sue Mac ?
 
 4- Créer un repository distant sur GitHub
+
 ________________________-INIT et dépot initial--------------------------
 
-git initial
+git config - l
+
+- Pour ajouter une entrée de config - 
+git config --global user.name "Herve Gibet"
+
+- Pour remplacer une entrée existante
+git config --global  --replace-all user.name "Herve Gibet"
+
+
+- Relier le dépot local au dépot distant
+git remote add origine https://github.com/hervegibet/projet.git
+
+- Ajouter les fichiers du projet local
+git add all
+
+- Commiter les fichiers du projet local
+git commit -m "Depot initial"
+
+-Envoi sur le dépot distant
+git push -u origin master
+
+
+---------------GIT CREATION DE BRANCHE----------------------------
+git branche recette (pour créer recette)
+-- on copie le projet sur la branche locale recette
+git checkout recette
+
+git branch -- pour voir les branches et l'étoile $ indique la branche courante.
+
+-- on fait nos modifs
+git add --all (tout ajouter)
+git add page.php (ajouter un fichier précis, en l'occurrence page.php)
