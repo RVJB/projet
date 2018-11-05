@@ -1,0 +1,11 @@
+-------------------------GIT MISE EN PLACE___________________________
+
+1- Créer un compte GitHub.compte
+2_ Installer Git sur son poste.
+mac: https//git-scm.com/donload/mac3- Ouvrir invite de commande (cmd) et on se place dans le dossier du projet que l'on souhaite ajouter à GIT
+3- sue Mac ?
+
+4- Créer un repository distant sur GitHub
+________________________-INIT et dépot initial--------------------------
+
+git initial
