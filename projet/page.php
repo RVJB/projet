@@ -2,4 +2,6 @@
 
 echo "page";
 
+echo "page";
+
 ?>

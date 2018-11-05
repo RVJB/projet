@@ -62,3 +62,23 @@ git revert f511da277936b8d2f358f2bb3bd53c7c25f8fb86
 --- on édite le fichier de commit du revert
 git push -u origin recette
 --- pour valider le retour arrière
+
+
+(voir aussi git reset)
+
+
+----- FUSION DE BRANCHE
+git checkout master ----- on se replace sur master
+git merge recette ----- on vient fusionner la branche recette sur master
+git merge  --abort  -------pour annuler le merge (avant d'avoir fait le push)
+git push  -u origin master ----- pour envoyer la fusion sur le dépôt
+
+
+------------SUPPRESSION DE BRANCHES-----------------------------
+
+- en local
+git branch  -d recette2
+
+- à distance
+git push origin --delete recette (après cela, on n'a plus que master sur gitHub, mais on l'a tjs en local)
+
